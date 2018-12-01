@@ -12,5 +12,5 @@ zuul:
       serviceId: app-springcloud-order
     api-c:
         ### 以 /api-order/访问转发到订单服务
-      path: /api-apy/**
+      path: /api-pay/**
       serviceId: app-springcloud-pay
